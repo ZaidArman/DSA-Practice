@@ -51,3 +51,20 @@ end_time = time.time()
 print("Sorted array:", sorted_arr)
 print("Execution time:", end_time - start_time, "seconds")
 
+# Example for Decimal point
+"""
+Python example that implements selection sort for an array of decimal values:
+"""
+def selection_sort(decimal_array):
+    n = len(decimal_array)
+    for i in range(n-1):
+        minimum = i
+        for j in range(i+1, n):
+            if decimal_array[j] < decimal_array[minimum]:
+                minimum = j
+        decimal_array[minimum], decimal_array[i] = decimal_array[i], decimal_array[minimum]
+    return decimal_array
+
+decimal_array = [3.14, 2.71, 1.618, 0.001, 0.999]
+sorted_array = selection_sort(decimal_array)
+print(sorted_array)

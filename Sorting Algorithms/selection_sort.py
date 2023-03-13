@@ -1,5 +1,26 @@
 # Selection Sort Question: 
 """
+Selection Sort is a simple sorting algorithm that works by repeatedly finding the minimum element from the unsorted part of the array and swapping it with the first element of the unsorted part. This process is repeated until the entire array is sorted.
+
+Here's how the algorithm works:
+
+    Set the first element of the array as the minimum value.
+    Iterate through the remaining elements of the array, and if an element is smaller than the current minimum, set it as the new minimum.
+    Swap the minimum element with the first element of the unsorted part of the array.
+    Repeat the above process for the remaining unsorted part of the array until the entire array is sorted.
+    
+It is mainly used for educational purposes or for sorting small arrays.
+
+
+# Complexity:
+Selection Sort has a time complexity of O(n^2), which makes it inefficient for large arrays. 
+
+"""
+
+
+
+# Example:
+"""
 A program in Python that uses the Insertion Sort algorithm for an array of size 20 
 and sorts the elements in descending order.
 """

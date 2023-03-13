@@ -1,5 +1,21 @@
 # Merge Sort Question: 
 """
+Merge Sort is a divide-and-conquer algorithm that works by recursively dividing the input array into two halves, sorting each half separately, and then merging the two sorted halves back together to produce the final sorted array.
+
+Here's how the algorithm works:
+
+    Divide the unsorted array into two halves, by finding the middle index.
+    Recursively sort the left and right halves of the array.
+    Merge the two sorted halves back together to form a single sorted array.
+    
+# Complexity:
+Merge Sort has a time complexity of O(n log n), which makes it more efficient than Bubble Sort and Insertion Sort for large arrays. 
+However, it requires additional memory to store the two halves of the array during the merge step, which can be a disadvantage for very large arrays.
+"""
+
+
+# Example:
+"""
 A program that implements Merge Sort for a list of 50 integers and sorts them in ascending order 
 using the divide and conquer technique.
 """
